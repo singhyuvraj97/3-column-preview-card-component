@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.cont{
+  max-width: 80%;
+  min-width: 300px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  width: 300px;
+  padding: 48px;
+}
+
+#card1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0px 0px;
+  
+}
+
+#card1 .cardButton a{
+  color: hsl(31, 77%, 52%);
+}
+
+#card2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#card2 .cardButton a{
+  color: hsl(184, 100%, 22%,);
+}
+
+
+#card3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 0px 10px 10px;
+}
+
+#card3 .cardButton a{
+  color: hsl(179, 100%, 13%);
+}
+
+
+.cardIcon{
+  background-image: url("./images/icon-sedans.svg");
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 42px;
+  margin: 0px 0px 40px 0px;
+}
+
+.cardBody h1{
+  font-size: 36px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 36px;
+}
+
+.cardBody p{
+  font-size: 16px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 26px;
+}
+
+.cardButton a{
+  display: block;
+  width: max-content;
+  background-color: hsla(0, 0%, 100%, 0.75);
+  padding: 16px 34px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Lexend Deca', sans-serif;
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 765px){
+  .cardBody p{
+    margin-bottom: 32px;
+  }
+
+  .cont{
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  #card1{
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  #card3{
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+}
