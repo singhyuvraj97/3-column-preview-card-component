@@ -11,7 +11,7 @@
 
 .cont{
   max-width: 80%;
-  min-width: 300px;
+  min-width: 320px;
   margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
@@ -19,12 +19,12 @@
 }
 
 .card{
-  width: 300px;
+  width: 310px;
   padding: 48px;
 }
 
 #card1 {
-  background-image: url("./images/icon-sedans.svg");
+  
   background-color: hsl(31, 77%, 52%);
   border-radius: 10px 10px 0px 0px;
   
@@ -35,7 +35,7 @@
 }
 
 #card2 {
-  background-image: url("./images/icon-suvs.svg");
+  
   background-color: hsl(184, 100%, 22%);
 }
 
@@ -45,7 +45,7 @@
 
 
 #card3 {
-  background-image: url("./images/icon-luxury.svg");
+  
   background-color: hsl(179, 100%, 13%);
   border-radius: 0px 0px 10px 10px;
 }
@@ -61,6 +61,18 @@
   height: 42px;
   margin: 0px 0px 40px 0px;
 }
+
+#card1 .cardIcon{
+  background-image: url("./images/icon-sedans.svg");
+} 
+
+#card2 .cardIcon{
+  background-image: url("./images/icon-suvs.svg");
+} 
+
+#card3 .cardIcon{
+  background-image: url("./images/icon-luxury.svg");
+} 
 
 .cardBody h1{
   font-size: 36px;
@@ -89,7 +101,7 @@
   border-radius: 30px;
 }
 
-@media screen and (min-width: 765px){
+@media screen and (min-width: 775px){
   .cardBody p{
     margin-bottom: 32px;
   }
